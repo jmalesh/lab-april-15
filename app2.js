@@ -27,3 +27,12 @@ function sumArray(myArray) {
   console.table(myArray);
   console.log(myArray + ' was passed in as an array of numbers, and ' + s + ' is the sum.');
 }
+//Problem 5
+function multiplyArray(newArray) {
+  t = 0;
+  for (var i = 0; i < newArray.length; i++) {
+    t += newArray[i];
+  }
+  console.table(newArray);
+  console.log(newArray + ' was passed in as an array of numbers, and ' + t + ' is the sum.');
+}
