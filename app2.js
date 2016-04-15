@@ -1,3 +1,6 @@
+//Clear and concise code
+//Only problem is in number 5
+
 //Problem 1
 function sum(num1, num2) {
   var s = num1 + num2;
@@ -41,7 +44,7 @@ function sumArray(myArray) {
 function multiplyArray(newArray) {
   t = 0;
   for (var i = 0; i < newArray.length; i++) {
-    t += newArray[i];
+    t += newArray[i]; //should be multiplication
   }
   console.table(newArray);
   console.log(newArray + ' was passed in as an array of numbers, and ' + t + ' is the sum.');
